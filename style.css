@@ -1,0 +1,31 @@
+body{
+    background-color:rgb(226, 149, 149);
+}
+img{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    float: right;
+  box-shadow: rgb(189, 21, 21);
+}
+.table, th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100px;
+    color: black;
+}
+.tabla{
+    background-color: rgba(156, 160, 212, 0.562);
+    
+}
+.tab{
+    background-color: rgba(156, 160, 212, 0.562);
+}
+.datos{
+    background-color: rgba(156, 160, 212, 0.562);
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-style: oblique;
+}
