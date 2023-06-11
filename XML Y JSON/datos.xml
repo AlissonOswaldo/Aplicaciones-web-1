@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datos>
+  <persona>
+  <nombre>Desarrollo de nuevo software de gestión de ventas</nombre>
+  <descripcion>Este proyecto implica el desarrollo de un nuevo software para la gestión de ventas de una empresa.</descripcion>
+  <fecha_inicio>2022-01-15</fecha_inicio>
+  <fecha_fin>2022-06-30</fecha_fin>
+  </persona>
+
+  <persona>
+      <nombre>Investigación y análisis de requisitos</nombre>
+      <descripcion>Se realizará una investigación detallada sobre los requisitos necesarios para el nuevo software y se establecerán los objetivos del proyecto.</descripcion>
+      <fecha_inicio>2022-01-15</fecha_inicio>
+      <fecha_fin>2022-02-15</fecha_fin>
+  </persona>
+  <persona>
+    <nombre>Recopilación de información</nombre>
+    <descripcion>Se recopilará información sobre los requisitos del software y se evaluará la viabilidad del proyecto.</descripcion>
+    <fecha_inicio>2022-01-15</fecha_inicio>
+    <fecha_fin>2022-01-22</fecha_fin>
+  </persona>
+
+  <persona>
+    <nombre>Definición de objetivos</nombre>
+    <descripcion>Se establecerán los objetivos del proyecto y se definirán las metas a alcanzar.</descripcion>
+    <fecha_inicio>2022-01-23</fecha_inicio>
+    <fecha_fin>2022-02-01</fecha_fin>
+  </persona>
+<persona>
+   <nombre>Diseño y desarrollo del software</nombre>
+   <descripcion>Se desarrollará el software de acuerdo con los requisitos establecidos en la primera etapa.</descripcion>
+   <fecha_inicio>2022-02-02</fecha_inicio>
+   <fecha_fin>2022-05-02</fecha_fin> 
+</persona>
+<persona>
+<nombre>Diseño de interfaz de usuario</nombre>
+          <descripcion>Se diseñará una interfaz de usuario intuitiva y fácil de usar para el software de gestión de ventas.</descripcion>
+          <fecha_inicio>2022-02-02</fecha_inicio>
+          <fecha_fin>2022-02-15</fecha_fin>
+</persona>
+<persona>
+ <nombre>Desarrollo de funciones principales</nombre>
+          <descripcion>Se desarrollarán las funciones principales del software, como la gestión de inventario y la generación de informes de ventas.</descripcion>
+          <fecha_inicio>2022-02-16</fecha_inicio>
+          <fecha_fin>2022-04-15</fecha_fin>
+</persona>
+<persona>
+<nombre>Pruebas de software</nombre>
+          <descripcion>Se realizarán pruebas exhaustivas en el software para asegurarse de que cumpla con los requisitos establecidos en la primera etapa.</descripcion>
+          <fecha_inicio>2022-04-16</fecha_inicio>
+          <fecha_fin>2022-05-02</fecha_fin>
+</persona>
+<persona>
+<nombre>Implementación y capacitación</nombre>
+      <descripcion>Se implementará el software en la empresa y se proporcionará capacitación para su uso.</descripcion>
+      <fecha_inicio>2022-05-03</fecha_inicio>
+      <fecha_fin>2022-06-30</fecha_fin>
+</persona>
+<persona>
+<nombre>Implementación del software</nombre>
+          <descripcion>Se implementará el software en la infraestructura de la empresa y se asegurará de que funcione correctamente con los sistemas existentes.</descripcion>
+          <fecha_inicio>2022-05-03</fecha_inicio>
+          <fecha_fin>2022-06-01</fecha_fin>
+</persona>
+<persona>
+<nombre>Capacitación de usuarios</nombre>
+          <descripcion>Se capacitará a los usuarios del software para asegurarse de que puedan usarlo efectivamente para la gestión de ventas.</descripcion>
+          <fecha_inicio>2022-06-02</fecha_inicio>
+          <fecha_fin>2022-06-15</fecha_fin>
+</persona>
+<persona>
+ <nombre>Pruebas finales</nombre>
+          <descripcion>Se realizarán pruebas finales para asegurarse de que el software funcione correctamente y satisfaga las necesidades de la empresa.</descripcion>
+          <fecha_inicio>2022-06-16</fecha_inicio>
+          <fecha_fin>2022-06-30</fecha_fin>
+</persona>
+</datos>

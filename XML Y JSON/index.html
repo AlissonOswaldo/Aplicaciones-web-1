@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Lectura de archivo XML en HTML</title>
+</head>
+<body>
+  <h1>Control y seguimiento de Proyectos</h1>
+  <button onclick="mostrarDatos()">Mostrar datos</button>
+  <div id="datos-personas"></div>
+
+  <script>
+    function mostrarDatos() {
+     
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+
+          var xmlDoc = this.responseXML;
+          var personas = xmlDoc.getElementsByTagName("persona");
+
+    
+          var datos = document.getElementById("datos-personas");
+          datos.innerHTML = "";
+          for (var i = 0; i < personas.length; i++) {
+            var nombre = personas[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue;
+            var edad = personas[i].getElementsByTagName("descripcion")[0].childNodes[0].nodeValue;
+            var pais = personas[i].getElementsByTagName("fecha_inicio")[0].childNodes[0].nodeValue;
+            var fecha_fin= personas[i].getElementsByTagName("fecha_fin")[0].childNodes[0].nodeValue;
+            datos.innerHTML += nombre + "-- descripcion del trabajo:(" + edad + ") -Fecha de inicio y Fin " + pais + fecha_fin+ "<br>";
+          }
+        }
+      };
+      xhttp.open("GET", "datos.xml", true);
+      xhttp.send();
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Control y seguimiento de proyectos</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("#cargarDatos").click(function() {
+				$.getJSON("datos.json", function(data) {
+					var proyectos = data.proyectos;
+					var tabla = "<table><tr><th>ID</th><th>nombre</th><th>descripción</th><th>Fecha de inicio</th><th>Fecha de fin</th><th>Estado</th></tr>";
+					$.each(proyectos, function(index, proyecto) {
+						tabla += "<tr><td>" + proyecto.id + "</td><td>" + proyecto.nombre + "</td><td>" + proyecto.descripcion + "</td><td>" + proyecto.fecha_inicio + "</td><td>" + proyecto.fecha_fin + "</td><td>" + proyecto.estado + "</td></tr>";
+					});
+					tabla += "</table>";
+					$("#tablaProyectos").html(tabla);
+				});
+			});
+		});
+	</script>
+</head>
+<body>
+	<button id="cargarDatos">Cargar datos</button>
+	<div id="tablaProyectos"></div>
+</body>
+</html>
