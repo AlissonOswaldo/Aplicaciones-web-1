@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <title>Tarea 4 aplicaciones web</title>
+    <title>Ejercicio en clases</title>
 <script type="text/javascript">
     function restar(){
         var Numero1 = Number(document.getElementById('Numero1').value);
@@ -46,19 +46,22 @@
 
         document.getElementById('resultado').value = resultado
     }
+   
 </script>
 </head>
 <body>
     Ingrese aqui su primer número <input type="text" id="Numero1"> <br><br>
     Ingrese aqui su segundo número <input type="text" id="Numero2"> <br><br>
-    seleccione una operacion y vea aqui el resultado de sus dos números ingresados: <input type="text" id="resultado"> <br>
-
+    <p>seleccione una iteracion </p>
     
     <input type="button" value="Restar" onclick="restar()">
     <input type="button" value="Multiplicar" onclick="multiplicar()">
     <input type="button" value="sumar" onclick="suma()">
     <input type="button" value="Dividir" onclick="dividir()">
     <input type="button" value="Modulo" onclick="mod()">
+    
+    <p>El resultado de sus dos números ingresados: <input type="text" id="resultado"> </p>
+
 </body>
 
 </html>
