@@ -1,0 +1,25 @@
+
+.franja-verde {
+    background-color: green;
+    height: 100px; /* Ajusta la altura de la franja según tus necesidades */
+    width: 100%;  /* Ancho completo de la página */
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 50px; /* Centra el contenido verticalmente en la franja */
+    color: white; /* Color del texto en la franja */
+}
+.imagen {
+    width: 200px; /* Ancho inicial de la imagen */
+    height: 150px; /* Altura inicial de la imagen */
+    position: absolute; /* Posición absoluta para controlar la ubicación */
+    top: 100px; /* Cambia la posición vertical (top) según tus necesidades */
+    left: 700px; /* Cambia la posición horizontal (left) según tus necesidades */
+}
+.Puntos{
+    color: white;
+}
+.iniciar{
+    color: green;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Asistencias</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Registro de Asistencias del Docente</h1>
+    </header>
+    <main>
+        <form id="attendance-form">
+            <label for="first-name">Nombre:</label>
+            <input type="text" id="first-name" name="first-name" required><br><br>
+
+            <label for="last-name">Apellido:</label>
+            <input type="text" id="last-name" name="last-name" required><br><br>
+
+            <label for="attendance-date">Fecha y Hora de Asistencia:</label>
+            <input type="datetime-local" id="attendance-date" name="attendance-date" required><br><br>
+
+            <input type="button" value="Registrar Asistencia" id="register-button">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2023 Registro de Asistencias</p>
+    </footer>
+    <div class="button">
+        <button type="button" id="consult-button">Consultar Registros de Asistencias</button>
+    </div>
+
+    <div id="attendance-list" class="hidden">
+        <h2>Registro de asistencias</h2>
+        <ul id="attendance-records"></ul>
+    </div>
+
+     <a href="Inicio.html" class="salir-link">Salir de la pagina de registro de asistencia</a>
+
+    <script src="js/index.js"></script>
+    
+</body>
+</html>
